@@ -87,7 +87,7 @@ const handleSubmit = async (e) => {
     loader(messageDiv)
 
     // fetch data from server
-    const response = await fetch('https://codelab-agnb.onrender.com', {
+    const response = await fetch('https://chat-q32f.onrender.com/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
